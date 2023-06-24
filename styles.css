@@ -346,8 +346,19 @@ textarea{
 }
 footer{
     text-align: center;
-    padding: 16px;
+    padding: 36px;
+    background-color: black;
+    
+    & p{
+        margin: 0;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: var(--others);
+        
+    }
 }
+
 @media (max-width: 720px) {
     /*body{
         width: fit-content;
