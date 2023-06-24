@@ -5,22 +5,232 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pao Zambrano - Portafolio</title>
+    <script src="https://kit.fontawesome.com/78873a92a8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <nav>
-            <ul>
-                <li><a href="">Sobre mí</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Hobbies</a></li>
-                <li><a href="">Formación</a></li>
-                <li><a href="">Proyectos</a></li>
-                <li><a href="">pao.zambranoo_@hotmail.com</a></li>
+    <header class="head">
+        <div class="head_container">
+            <i class="fa-solid fa-cloud-sun"></i>
+            <p class="head_container-name">Pao Zambrano</p>
+        </div>
+        
+        <nav class="head_nav">
+            <ul class="head_nav_links">
+                <li class="head_nav_links_buttons"><a href="#about">Sobre mí</a></li>
+                <li class="head_nav_links_buttons"><a href="#skills">Skills</a></li>
+                <li class="head_nav_links_buttons"><a href="#hobbies">Hobbies</a></li>
+                <li class="head_nav_links_buttons"><a href="#academic_information">Formación</a></li>
+                <li class="head_nav_links_buttons"><a href="#projects">Proyectos</a></li>
+                <li class="head_nav_links_buttons"><a href="mailto:paoozambr@gmail.com">paoozambr@gmail.com</a></li>
             </ul>
         </nav>
     </header>
-    
+    <main class="main">
+        <section class="intro">
+            <img class="intro_me" src="./assets/Imagen_de_WhatsApp_2023-06-14_a_las_12.18.30-removebg-preview-min.jpg" alt="">
+            <div class="intro_information">
+                <h1 class="intro_information-title">Hola mi nombre es Paola Zambrano y este es mi proyecto</h1>
+                <p class="intro_information-text">Soy una estudiante de 24 años proveniente de Ecuador, actualmente enfocada en mi especialización en desarrollo Front-End. Estoy dedicado a adquirir conocimientos en este campo y mejorar mis habilidades en la creación de interfaces web. Me encuentro estudiando con ONE ORACLE, una plataforma reconocida en el ámbito de la tecnología.</p>
+                <ul class="intro_information_links">
+                    <li class="intro_information_links-btn"><a href="https://github.com/paozambrano" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub </a></li>
+                    <li class="intro_information_links-btn"><a href="https://www.linkedin.com/in/paozambrano/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>Linkedin</a></li>
+                    <li class="intro_information_links-btn"><a href="https://www.instagram.com/paozambranoo/" target="_blank"><ion-icon name="logo-instagram"></ion-icon>Instagram</a></li>
+                    <li class="intro_information_links-btn"><a href="https://drive.google.com/file/d/1K_BtWqVtYLTmA4AL5P3Wy_X8Zhak9IMr/view?usp=sharings" target="_blank"><ion-icon name="person-sharp"></ion-icon>Curriculum</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2 class="about_title">Sobre mí</h2>
+            <div class="about_container">
+                <div class="about_text_container">
+                    <p class="about-text">Inicié mis estudios en ingeniería en software en 2016, pero debido a circunstancias personales, tuve que abandonar la carrera. Sin embargo, actualmente me dedico a aprender a través de cursos y certificaciones para mantenerme actualizado en el campo tecnológico.</p>
+                    <p class="about-text">Poseo un alto nivel de inglés, lo cual me permite comunicarme eficazmente en entornos internacionales y acceder a recursos académicos especializados. Los idiomas son mi pasión y disfruto de su estudio constante.</p>
+                    <p class="about-text">La disciplina y la responsabilidad son valores fundamentales en mi vida. Como autodidacta, me comprometo a adquirir conocimientos por mi cuenta, ya sea a través de recursos en línea, libros o proyectos personales.</p>
+                    <p class="about-text">Además de mi dedicación a la tecnología, también tengo un profundo amor por los animales. Cuido de su bienestar y defiendo su protección, promoviendo la conciencia sobre la importancia de tratar a los seres vivos con respeto y compasión.</p>
+                </div>
+                
+                <div class="about_images">
+            
+                    <img src="./assets/freestocks-jUSu0686zDM-unsplash.jpg" alt="" class="about-images-pics">
+                    <img src="./assets/daniel-thomas-6_NXEMZbUq0-unsplash.jpg" alt="" class="about-images-pics">
+                    <img src="./assets/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg" alt="" class="about-images-pics">
+                </div>
+            </div>
+            
+        </section>
+        <section class="skills" id="skills">
+            <h2 class="skills_title">Skills</h2>
+            <div class="skills_container">
+                <div class="skills_container_description">
+                    <ion-icon name="logo-html5" class="icons"></ion-icon>
+                    <p class="skills_container_description-text">HTML 5</p>
+                </div>
+                <div class="skills_container_description">
+                    <i class="fa-brands fa-square-js icons"></i>
+                    <p class="skills_container_description-text">JavaScript</p>
+                </div>
+                <div class="skills_container_description">
+                    <i class="fa-brands fa-php icons"></i>
+                    <p class="skills_container_description-text">PHP</p>
+                </div>
+                <div class="skills_container_description">
+                    <ion-icon name="logo-nodejs" class="icons"></ion-icon>
+                    <p class="skills_container_description-text">Node JS</p>
+                </div>
+                <div class="skills_container_description">
+                    <ion-icon name="logo-react" class="icons"></ion-icon>
+                    <p class="skills_container_description-text">React</p>
+                </div>
+                <div class="skills_container_description">
+                    <ion-icon name="logo-css3" class="icons"></ion-icon>
+                    <p class="skills_container_description-text">CSS</p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="hobbies" id="hobbies">
+            <h2 class="hobbies_title">Hobbies</h2>
+            <div class="hobbies_container">
+                <div class="hobbies_container_description">
+                    <img src="" alt="">
+                    <ion-icon name="musical-notes-sharp" class="icons"></ion-icon>
+                    <p class="hobbies_container_description-text">Música</p>
+                </div>
+                <div class="hobbies_container_description">
+                    <ion-icon name="videocam-outline" class="icons"></ion-icon>
+                    <p class="hobbies_container_description-text">Peliculas</p>
+                </div>
+                <div class="hobbies_container_description">
+                    <ion-icon name="language-outline" class="icons"></ion-icon>
+                    <p class="hobbies_container_description-text">Idiomas</p>
+                </div>
+                <div class="hobbies_container_description">
+                    <ion-icon name="book-sharp" class="icons"></ion-icon>
+                    <p class="hobbies_container_description-text">Lectura</p>
+                </div>
+                <div class="hobbies_container_description">
+                    <ion-icon name="fast-food-sharp" class="icons"></ion-icon>
+                    <p class="hobbies_container_description-text">Cocina</p>
+                </div>
+                <div class="hobbies_container_description">
+                    <i class="fa-solid fa-paw icons"></i>
+                    <p class="hobbies_container_description-text">Animales</p>
+                </div>
+            </div>
+        </section>
+        <section class="academic_information" id="academic_information">
+            <h2 class="academic_information-title">Informacion Académica</h2>
+            <div class="academic_information_container">
+            
+                <div class="academic_information_container_description">
+                    <img src="./assets/google_cert-removebg-preview.png" alt="">
+                    <p class="academic_information-text">UX Design</p>
+                    <p class="academic_information-text courseName">2022 Coursera</p>
+                </div>
+                <div class="academic_information_container_description">
+                    <img src="./assets/alura_logo-removebg-preview.png" alt="">
+                    <p class="academic_information-text">Front End</p>
+                    <p class="academic_information-text courseName">2023 Alura</p>
+                </div>
+                <div class="academic_information_container_description">
+                    <img src="./assets/hubspot-removebg-preview.png" alt="">
+                    <p class="academic_information-text">Marketing Digital</p>
+                    <p class="academic_information-text courseName">2023 Hubspot</p>
+                </div>
+            </div>
+        </section>
+        <section class="experience" id="projects">
+            <h2 class="experience-title">Experiencia Profesional</h2>
+            <div class="experience_container">
+                <div class="experience_container-projects">
+                    <div class="small-container-project">
+                        <img src="./assets/forca2_print.png" alt="" class="experience_container-projects-img">
+                    </div>
+                    <div class="small_container_project-texts">
+                        <p class="experience_container-projects-text text_1">Juego creado con HTML, CSS y JavaScript</p>
+                        <p class="experience_container-projects-text">Challenge Oracle</p>
+                        <ul>
+                            <li class="experience_container-links repositorio"><a href="">Repositorio</a></li>
+                            <li class="experience_container-links demo"><a href="">Demo</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="experience_container">
+                <div class="experience_container-projects project_2">
+                    <div class="small-container-project">
+                        <img src="./assets/decod_print.png" alt="" class="experience_container-projects-img">
+                    </div>
+                    <div class="small_container_project-texts">
+                        <p class="experience_container-projects-text text_1">Encriptador de texto</p>
+                        <p class="experience_container-projects-text">Challenge Alura Codificador</p>
+                        <ul>
+                            <li class="experience_container-links repositorio"><a href="">Repositorio</a></li>
+                            <li class="experience_container-links demo"><a href="">Demo</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="experience_container">
+                <div class="experience_container-projects">
+                    <div class="small-container-project">
+                        <img src="./assets/forca_print.png" alt="" class="experience_container-projects-img">
+                    </div>
+                    <div class="small_container_project-texts">
+                        <p class="experience_container-projects-text text_1">Juego creado con HTML, CSS y JavaScript</p>
+                        <p class="experience_container-projects-text">Challenge Oracle</p>
+                        <ul>
+                            <li class="experience_container-links repositorio"><a href="">Repositorio</a></li>
+                            <li class="experience_container-links demo"><a href="">Demo</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact_container">
+                <img class="contact_container-img" src="./assets/markus-winkler-q3QPw37J6Xs-unsplash.jpg" alt="">
+                <form action="" class="form_contact">
+                    <h2 class="contact_container-title">Contacto</h2>
+                    <p class="contact_container-text">¿Quieres contactarme?</p>
+                    <p class="contact_container-text">Completa el siguiente formulario y me comunicaré contigo de inmediato</p>
+                    <div class="contact_container_labels">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="contact_container_labels">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="contact_container-input" required>
+                    </div>
+                    <div class="contact_container_labels ">
+                        <input type="text" name="" id="" placeholder="Asunto" class="asunto">
+                    </div>
+                    <div class="contact_container_labels">
+                         <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    </div>                   
+                   
+                    <button type="submit" class="contact_button">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer_credits">Desarrollado por Paola Zambrano</p>
+        <p class="footer_year">2023</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
