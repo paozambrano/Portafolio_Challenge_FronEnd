@@ -404,7 +404,7 @@ footer{
         padding: 36px;
     }
 }
-@media (max-width: 900px ) and (min-width:123px){
+@media (max-width: 900px ){
     .head{
         flex-wrap: wrap;
     }
